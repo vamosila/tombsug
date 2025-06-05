@@ -1,0 +1,46 @@
+
+<!--
+File: index.html
+Author: Vámosi László Ádám
+Copyright: 2025, Vámosi László Ádám
+Group: I-N
+Date: 2025-06-05
+Github: https://github.com/vamosilaszloadam/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rombusz</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+        <h1>Rombusz</h1>
+        <p>A rombuszba írható kör sugara</p>    
+        
+        <!-- űrlap -->
+         <form>
+          <div>
+            <label for="side" class="form-label">Oldal</label>
+            <input type="number" class="form-control" id="side">
+          </div>
+          <div>
+            <label for="angle" class="form-label">Szög</label>
+            <input type="number" class="form-control" id="angle">
+          </div>
+          <button id="calcButton" class="btn btn-primary my-2">Számít</button>
+          <div>
+            <label for="radius" class="form-label">Sugár</label>
+            <input type="number" class="form-control" id="radius" readonly>
+          </div>
+         </form>
+
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
